@@ -1,0 +1,5 @@
+NDK_TOOLCHAIN_VERSION=7.3
+APP_PROJECT_PATH := $(shell pwd)
+APP_BUILD_SCRIPT := $(APP_PROJECT_PATH)/Android.mk
+APP_ABI  := armeabi-v7a 
+APP_PLATFORM  := android-16
